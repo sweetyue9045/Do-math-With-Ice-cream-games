@@ -88,11 +88,13 @@ select, input, textarea {
 }
 
 .btnn {
-  display: flex;
-  flex-direction:  column ;
+  display: grid;
+  grid-template-columns: 50% 50%;
   margin: 0 auto;
 }
-
+.btnn>.btn:first-child {
+	grid-column: 1/3;
+}
 .btnn>.btn {
   border: 0.1vw solid #588288;
   color: #588288;

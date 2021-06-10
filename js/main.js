@@ -7,6 +7,9 @@ $(function () {
         $("#showBlock").prepend(div);
         $("#addItem_1").attr("disabled", true);
         $("#addItem_2").attr("disabled", true);
+        $("#addItem_3").attr("disabled", true);
+        $("#addItem_4").attr("disabled", true);
+        $("#addItem_5").attr("disabled", true);
         $("#add-1").attr("disabled", false);
         $("#add-2").attr("disabled", false);
         $("#add-3").attr("disabled", false);
@@ -19,10 +22,70 @@ $(function () {
     });
     $("#addItem_2").click(function () {
         txtId++;
-        let div = `<img src="https://raw.githubusercontent.com/sweetyue9045/little_game/main/img/0_2.png" class="key key${txtId}" id="key${txtId}" style="z-index:${txtId}; margin-top:-30px">`
+        let div = `<img src="https://raw.githubusercontent.com/sweetyue9045/little_game/main/img/0_2.png" class="key key${txtId}" id="key${txtId}" style="z-index:${txtId};">`
         $("#showBlock").prepend(div);
         $("#addItem_1").attr("disabled", true);
         $("#addItem_2").attr("disabled", true);
+        $("#addItem_3").attr("disabled", true);
+        $("#addItem_4").attr("disabled", true);
+        $("#addItem_5").attr("disabled", true);
+        $("#add-1").attr("disabled", false);
+        $("#add-2").attr("disabled", false);
+        $("#add-3").attr("disabled", false);
+        $("#add-4").attr("disabled", false);
+        $("#add-5").attr("disabled", false);
+        $("#add-6").attr("disabled", false);
+        $("#add-7").attr("disabled", false);
+        $("#add-8").attr("disabled", false);
+        $("#add-9").attr("disabled", false);
+    });
+    $("#addItem_3").click(function () {
+        txtId++;
+        let div = `<img src="https://raw.githubusercontent.com/sweetyue9045/little_game/main/img/0_3.png" class="key key${txtId}" id="key${txtId}" style="z-index:${txtId};">`
+        $("#showBlock").prepend(div);
+        $("#addItem_1").attr("disabled", true);
+        $("#addItem_2").attr("disabled", true);
+        $("#addItem_3").attr("disabled", true);
+        $("#addItem_4").attr("disabled", true);
+        $("#addItem_5").attr("disabled", true);
+        $("#add-1").attr("disabled", false);
+        $("#add-2").attr("disabled", false);
+        $("#add-3").attr("disabled", false);
+        $("#add-4").attr("disabled", false);
+        $("#add-5").attr("disabled", false);
+        $("#add-6").attr("disabled", false);
+        $("#add-7").attr("disabled", false);
+        $("#add-8").attr("disabled", false);
+        $("#add-9").attr("disabled", false);
+    });
+    $("#addItem_4").click(function () {
+        txtId++;
+        let div = `<img src="https://raw.githubusercontent.com/sweetyue9045/little_game/main/img/0_4.png" class="key key${txtId}" id="key${txtId}" style="z-index:${txtId};">`
+        $("#showBlock").prepend(div);
+        $("#addItem_1").attr("disabled", true);
+        $("#addItem_2").attr("disabled", true);
+        $("#addItem_3").attr("disabled", true);
+        $("#addItem_4").attr("disabled", true);
+        $("#addItem_5").attr("disabled", true);
+        $("#add-1").attr("disabled", false);
+        $("#add-2").attr("disabled", false);
+        $("#add-3").attr("disabled", false);
+        $("#add-4").attr("disabled", false);
+        $("#add-5").attr("disabled", false);
+        $("#add-6").attr("disabled", false);
+        $("#add-7").attr("disabled", false);
+        $("#add-8").attr("disabled", false);
+        $("#add-9").attr("disabled", false);
+    });
+    $("#addItem_5").click(function () {
+        txtId++;
+        let div = `<img src="https://raw.githubusercontent.com/sweetyue9045/little_game/main/img/0_5.png" class="key key${txtId}" id="key${txtId}" style="z-index:${txtId};">`
+        $("#showBlock").prepend(div);
+        $("#addItem_1").attr("disabled", true);
+        $("#addItem_2").attr("disabled", true);
+        $("#addItem_3").attr("disabled", true);
+        $("#addItem_4").attr("disabled", true);
+        $("#addItem_5").attr("disabled", true);
         $("#add-1").attr("disabled", false);
         $("#add-2").attr("disabled", false);
         $("#add-3").attr("disabled", false);
