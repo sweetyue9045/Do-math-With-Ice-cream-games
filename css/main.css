@@ -90,6 +90,7 @@ select, input, textarea {
 .btnn {
   display: grid;
   grid-template-columns: 50% 50%;
+  grid-template-rows: repeat(8,60px);
   margin: 0 auto;
 }
 .btnn>.btn:first-child {
@@ -98,12 +99,12 @@ select, input, textarea {
 .btnn>.btn {
   border: 0.1vw solid #588288;
   color: #588288;
-  margin: 0vw 0.95vw 1vw;
+  margin: 0vw 10px;
 
 }
 
 .key {
-  margin: 0vw 0.95vw -30px;
+  margin: 0vw 10px -30px;
   width: 100px;
 }
 
